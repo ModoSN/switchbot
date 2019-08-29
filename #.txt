@@ -1,0 +1,5 @@
+cd c:/servers/sn_server_discordbot
+forever index.js
+
+forever stopall
+taskkill /f /im node.exe
